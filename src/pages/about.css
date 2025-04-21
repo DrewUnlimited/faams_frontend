@@ -1,0 +1,87 @@
+body, html{
+    background-color: gray;
+    height:100%;
+}
+
+.about-container {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  
+  .left-side {
+    flex: 1;
+    min-width: 300px;
+    margin-top: 5%;
+  }
+
+  .left-side h1{
+    color: white;
+    font-size: 108px;
+    margin:0;
+
+  }
+
+  .left-side p{
+    color: white;
+    font-size: 24px;
+
+  }
+
+  .faams-header{
+    color:#1A5E63 !important;
+    font-size: 72px !important;
+  }
+  
+  .right-side {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .about-img{
+    margin-top: 8%;
+  }
+  
+  .involved-btn {
+    background-color: #f7f4c9;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.bottom-container{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.section {
+    flex:1;
+    width: 300px;
+}
+
+.section h2, .section p {
+    text-align: center;
+}
+ .section ul{
+    text-align: left;
+ }

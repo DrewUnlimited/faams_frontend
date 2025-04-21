@@ -1,0 +1,116 @@
+.home-img::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; 
+    width: 100%;
+    background-color: rgba(94, 94, 94, 0.829); 
+    z-index: 1;
+}
+
+.home-img {
+    background-image: url('../images/home-img.png');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    height: 100vh;                  
+    width: 100%;    
+}
+
+.home-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 80px;
+    z-index: 2;
+}
+
+.home-container h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    color: white;
+}
+
+.highlight {
+    color: #015D60;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.card {
+    background-color: #6C6C6C;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh; /* consistent height for button alignment */
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: center;
+    color: white;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.login-box button:hover {
+    background-color: #0a4a3d;
+}
+
+.btn.light {
+    background-color: #f9f7c4;
+    color: black;
+}
+
+.btn.mid {
+    background-color: #1A5E63;
+    color: white;
+}
+
+.btn.dark {
+    background-color: #015D60;
+    color: white;
+}

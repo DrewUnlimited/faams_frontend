@@ -72,7 +72,7 @@ function Login() {
                     />
                     <button type="submit">Login</button>
                 </form>
-                <p>Don't have an account? <Link to="/">Sign Up</Link></p>
+                <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
             </div>
         </div>
         </div>
